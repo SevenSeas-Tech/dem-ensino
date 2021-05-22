@@ -10,6 +10,9 @@
       "src/packages/shared/*"
     ]
   },
+  "scripts": {
+    "dev:server": "ts-node-dev -r --transpileOnly tsconfig-paths/register --ignore-watch node_modules src/shared/infra/http/server.ts"
+  },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
@@ -23,6 +26,8 @@
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "3.3.0",
     "husky": "3.1.0",
+    "ts-node-dev": "^1.1.6",
+    "tsconfig-paths": "^3.9.0",
     "typescript": "^4.2.4"
   },
   "config": {

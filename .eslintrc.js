@@ -1,3 +1,3 @@
-const config = require('@democratizando-o-ensino/eslint-config')
+const config = require('@dem-ensino/eslint-config')
 
 module.exports = config;
