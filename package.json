@@ -11,7 +11,7 @@
     ]
   },
   "scripts": {
-    "dev:server": "ts-node-dev -r --transpileOnly tsconfig-paths/register --ignore-watch node_modules src/shared/infra/http/server.ts"
+    "dev:server": "tsnd --inspect --transpile-only -r tsconfig-paths/register --ignore-watch node_modules --respawn src/packages/server/shared/infra/http/server.ts"
   },
   "husky": {
     "hooks": {
