@@ -1,4 +1,6 @@
-# .eslintrc.js
+.eslintrc.js
+src/packages/shared/**/*.js
 src/packages/**/*.js
 node_modules
 dist
+*.js
