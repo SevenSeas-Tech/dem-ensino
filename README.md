@@ -1,5 +1,9 @@
+<div style="display: flex align-items: left">
+  <img src="https://i.imgur.com/Kt64d3S.png" width="100" style="border-radius:50%"/>
+</div>
+
+<!---![Licence](https://img.shields.io/github/license/SevenSeas-Tech/dem-ensino.svg) -->
 [![Updated Badge](https://badges.pufler.dev/updated/SevenSeas-Tech/dem-ensino)](https://badges.pufler.dev)
-![Licence](https://img.shields.io/github/license/SevenSeas-Tech/dem-ensino.svg)
 ![stars](https://img.shields.io/github/stars/SevenSeas-Tech/dem-ensino.svg)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
@@ -9,9 +13,17 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
 
-
 # Democratizando o Ensino
-Biblioteca gratuita de video aulas. Pensada para auxiliar estudantes de todas as áreas.
+  Biblioteca gratuita de video aulas. Pensada para auxiliar estudantes de todas as áreas.
+
+# Devlog
+O projeto está em andamento, embora ainda não exista nenhuma release. 
+
+## Status
+
+* Backend: em desenvolvimento;
+* Web: TODO
+* Mobile: TODO
 
 # Colaboradores
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=SevenSeas-Tech/dem-ensino)
