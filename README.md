@@ -15,6 +15,26 @@
 
 # Democratizando o Ensino
   Biblioteca gratuita de video aulas. Pensada para auxiliar estudantes de todas as áreas.
+  
+# Tecnologias
+
+### Database
+* Postgres;
+* Typeorm;
+
+### Testes
+* Jest;
+* Supertest;
+
+### Documentação API
+* Swagger
+
+### Padronização
+* Commits: Husky, Commitlint;
+* Lint: Eslint, Prettier;
+
+### Build
+* Babel;
 
 # Devlog
 O projeto está em andamento, embora ainda não exista nenhuma release. 
