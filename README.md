@@ -16,6 +16,14 @@
 # Democratizando o Ensino
   Biblioteca gratuita de video aulas. Pensada para auxiliar estudantes de todas as áreas.
   
+  <div style="display: flex align-items: left">
+  <img src="https://i.imgur.com/4HsbC2P.png" title="source: imgur.com" />
+  <img src="https://i.imgur.com/MZVt5Vg.png" title="source: imgur.com" />
+  
+</div>
+  
+  
+  
 # Tecnologias
 
 ### Database
