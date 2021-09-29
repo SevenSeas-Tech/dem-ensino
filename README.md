@@ -39,9 +39,11 @@
 # Devlog
 O projeto está em andamento, embora ainda não exista nenhuma release. 
 
+Estou focado no desenvolvimento do backend por enquanto.
+
 ## Status
 
-* Backend: em desenvolvimento;
+* [Backend](https://github.com/SevenSeas-Tech/demen-backend): em desenvolvimento;
 * Web: TODO
 * Mobile: TODO
 
