@@ -18,7 +18,7 @@
   
   <div style="display: flex align-items: left">
   <img src="https://i.imgur.com/AvpxGpb.png" title="source: imgur.com" />
-  <img src="https://i.imgur.com/MZVt5Vg.png" title="source: imgur.com" />
+  <img src="https://i.imgur.com/T3yxThU.png" title="source: imgur.com" />
   
 </div>
   
