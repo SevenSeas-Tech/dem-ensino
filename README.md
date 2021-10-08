@@ -23,7 +23,10 @@
   O democratizando o ensino só indexa as aulas, as visualizações e monetização ainda vão para o dono do conteúdo, já que nós não fazemos a hospedagem dos vídeos.
   
   <div style="display: flex align-items: left">
-  <img src="https://i.imgur.com/AvpxGpb.png" title="source: imgur.com" />
+  
+  <!-- Imagem dos testes -->
+  <img src="https://i.imgur.com/4gu5wWs.png" title="source: imgur.com" />
+  <!-- Imagem das rotas -->
   <img src="https://i.imgur.com/T3yxThU.png" title="source: imgur.com" />
   
 </div>
