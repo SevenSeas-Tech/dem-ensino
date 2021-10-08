@@ -14,7 +14,7 @@
 ![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
 
 # Democratizando o Ensino
-  Biblioteca gratuita de video aulas. Pensada para auxiliar estudantes de todas as áreas.
+  Biblioteca gratuita de video aulas. Pensada para auxiliar estudantes de todas as áreas. Uma aplicação onde estudantes podem buscar por aulas de nível fundamental ao superior. Ao buscar por um determinado conteúdo, o aluno só encontrará aulas, diferente de uma busca no Youtube, onde o algoritmo devolve o que ele quer que o usuário veja. Esse filtro ocorre porque a aplicação não faz as buscas na api do Google e sim ao banco de dados da própria aplicação. A biblioteca só vai se comunicar com o google na hora de alimentar o banco de dados, adicionando aulas, e na hora de embedar o vídeo para que o aluno assista a aula. O democratizando o ensino só indexa as aulas, as visualizações e monetização ainda vão para o dono do conteúdo, já que nós não fazemos a hospedagem dos vídeos.
   
   <div style="display: flex align-items: left">
   <img src="https://i.imgur.com/AvpxGpb.png" title="source: imgur.com" />
