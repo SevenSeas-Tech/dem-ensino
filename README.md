@@ -24,10 +24,22 @@
   
   <div style="display: flex align-items: left">
   
+  # Testes
   <!-- Imagem dos testes -->
   <img src="https://i.imgur.com/4gu5wWs.png" title="source: imgur.com" />
+  
+  # Rotas
   <!-- Imagem das rotas -->
   <img src="https://i.imgur.com/T3yxThU.png" title="source: imgur.com" />
+  
+  # Banco de Dados
+  <!-- Imagem conceitual -->
+  <img src="https://i.imgur.com/B2fW2Bs.png" title="source: imgur.com" />
+  
+  <hr>
+  
+  <!-- Imagem lógico -->
+  <img src="https://i.imgur.com/kdUbR6Z.png" title="source: imgur.com" />
   
 </div>
   
