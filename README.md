@@ -66,9 +66,15 @@
 * Babel;
 
 # Devlog
-O projeto está em andamento, embora ainda não exista nenhuma release. 
+Já criei as entidades necessárias no banco de dados. 
+Agora estou programando as rotas de cadastro dos vídeos na plataforma.
 
-Estou focado no desenvolvimento do backend por enquanto.
+O próximo passo é começar a desenvolver uma versão básica do front web para servir de demonstração para o público.
+Na demo os usuários poderão cadastrar-se. Assistir vídeos logados ou não.
+
+Na primeira demo não havera cache, e os recursos para administração como alteração de dados serão limitados.
+
+### O código fonte do backend agora está público para que recrutadores possam avaliar a minha experiência.
 
 ## Status
 
