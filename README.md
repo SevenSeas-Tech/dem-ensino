@@ -42,4 +42,4 @@ Na primeira demo não havera cache, e os recursos para administração como alte
 * Mobile: TODO
 
 # Colaboradores
-![GitHub Contributors Image](https://contrib.rocks/image?repo=SevenSeas-Tech/dem-ensino)
+![GitHub Contributors Image](https://contrib.rocks/image?repo=SevenSeas-Tech/demen)
