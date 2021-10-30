@@ -22,48 +22,7 @@
   
   O democratizando o ensino só indexa as aulas, as visualizações e monetização ainda vão para o dono do conteúdo, já que nós não fazemos a hospedagem dos vídeos.
   
-  <div style="display: flex align-items: left">
   
-  # Testes
-  <!-- Imagem dos testes -->
-  <img src="https://i.imgur.com/4gu5wWs.png" title="source: imgur.com" />
-  
-  # Rotas
-  <!-- Imagem das rotas -->
-  <img src="https://i.imgur.com/T3yxThU.png" title="source: imgur.com" />
-  
-  # Banco de Dados
-  <!-- Imagem conceitual -->
-  <img src="https://i.imgur.com/B2fW2Bs.png" title="source: imgur.com" />
-  
-  <hr>
-  
-  <!-- Imagem lógico -->
-  <img src="https://i.imgur.com/kdUbR6Z.png" title="source: imgur.com" />
-  
-</div>
-  
-  
-  
-# Tecnologias
-
-### Database
-* Postgres;
-* Typeorm;
-
-### Testes
-* Jest;
-* Supertest;
-
-### Documentação API
-* Swagger
-
-### Padronização
-* Commits: Husky, Commitlint;
-* Lint: Eslint, Prettier;
-
-### Build
-* Babel;
 
 # Devlog
 Já criei as entidades necessárias no banco de dados. 
