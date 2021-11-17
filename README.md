@@ -38,7 +38,7 @@ Na primeira demo não havera cache, e os recursos para administração como alte
 ## Status
 
 * [Backend](https://github.com/SevenSeas-Tech/demen-backend): em desenvolvimento;
-* Web: TODO
+* [Web](https://github.com/SevenSeas-Tech/demen-web): em etapa de análise;
 * Mobile: TODO
 
 # Colaboradores
