@@ -7,45 +7,108 @@
 ![stars](https://img.shields.io/github/stars/SevenSeas-Tech/dem-ensino.svg)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+
+
+
+<div style="display:flex; padding:15px 0px;justify-content: space-between">
+ <img height="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+ <img height="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+ <img height="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+ <img height="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" />
+ <img height="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" />
+ <img height="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
+ <img height="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" />
+</div>
+
+ ![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
 
 # Democratizando o Ensino
-  Biblioteca gratuita de video aulas. Pensada para auxiliar estudantes de todas as áreas. 
+  Demen is a free library of video-classes. It's intended to help students around the globe. (Starting in Brazil).
+  It's a place where you can search for lessons of all kinds and graduation levels, from basic school to college.
   
-  Uma aplicação onde estudantes podem buscar por aulas de nível fundamental ao superior. Ao buscar por um determinado conteúdo, o aluno só encontrará aulas, diferente de uma busca no Youtube, onde o algoritmo devolve o que ele quer que o usuário veja. Esse filtro ocorre porque a aplicação não faz as buscas na api do Google e sim ao banco de dados da própria aplicação. 
+  All the videos are hosted on youtube, so all the views and monetization are going to the original content creator.
   
-  A biblioteca só vai se comunicar com o google na hora de alimentar o banco de dados, adicionando aulas, e na hora de embedar o vídeo para que o aluno assista a aula. 
+  At first, we'll just index existing videos from youtube, but in the future we're going to create our own content.
   
-  O democratizando o ensino só indexa as aulas, as visualizações e monetização ainda vão para o dono do conteúdo, já que nós não fazemos a hospedagem dos vídeos.
+  For college courses we'll use as base the curriculum from the Universidade Federal do Rio Grande do Sul (UFRGS).
+  And for basic and highschool grades we are going to use the curriculum from Brazil's Ministério da Educação (MEC).
   
-  A plataforma é separada em 
+  ### The application is split in
+  * [Backend - Node](https://github.com/SevenSeas-Tech/demen-backend);
+  * [Web - Next JS][web];
+  * [Dashboard - React][dashboard];
+  * Mobile - React Native.
   
-  * server - node;
-  * front web - nextjs;
-  * dashboard de administração - react; 
-  * app mobile - react native.
-  
+  <hr>
 
+  
 # Devlog
-Já criei as entidades necessárias no banco de dados. 
-Agora estou programando as rotas de cadastro dos vídeos na plataforma.
+I thought about using monorepo, but I changed my mind. A monorepo would add an unecessary level of complexity. So the application, thus, the code is split in several repositories.
 
-O próximo passo é começar a desenvolver uma versão básica do front web para servir de demonstração para o público.
-Na demo os usuários poderão cadastrar-se. Assistir vídeos logados ou não.
+  ## Backend
 
-Na primeira demo não havera cache, e os recursos para administração como alteração de dados serão limitados.
+  I decided to change the table users. Now we have staff_members and students, both inherit users properties.
 
-### O código fonte do backend agora está público para que recrutadores possam avaliar a minha experiência.
+  Postgres has a feature that allows me to select all child entities into users table without duplicity.
 
-## Status
+  ### So what is the difference?
+  Before there was only one entity called users that englobe both students and managers. The object of user had a properti admin wich differentiates
+  the type of user. Now with two separeted entities is much easier to segregate managers from students. 
+  Students can only log on the app and managers can only log on dashboard.
 
-* [Backend](https://github.com/SevenSeas-Tech/demen-backend): em desenvolvimento;
-* [Web](https://github.com/SevenSeas-Tech/demen-web): em etapa de análise;
+  I am refactoring the code to reflect those changes.
+
+  ### About log-in
+  The alpha version goes live without login students's login, since it's not necessary to be logged to whatch videos.
+
+  Logged users will be able to favorite channels and teachers. They'll also be able to send feedback about the videos.
+  But that is not implemented yet.
+
+
+  ### TODO List:
+  * Cache - Redis;
+  * Logs - MongoDB;
+  * Social Login;
+  * Logged User Features.
+
+
+  ## Web
+  I am working on the UI on [Figma](https://www.figma.com/file/jXtUXQaY0SQWaUC0vpUHVJ/Demen?node-id=0%3A1).
+
+  ## Dasboard
+  TODO
+  * UI/UX Design
+
+  ## Mobile
+  TODO
+
+  <hr>
+
+# Repositories
+
+* [Backend](https://github.com/SevenSeas-Tech/demen-backend): work in progress;
+* [Web](https://github.com/SevenSeas-Tech/demen-web): UI/UX Design;
 * Mobile: TODO
 
-# Colaboradores
+<hr>
+
+# Contact
+  If you are interested in helping me in any way, please feel free to contact me through email.
+  
+  * huambenvenutti@protonmail.com
+  
+  ### I need help mainly in these areas:
+
+  * Education; 
+  * UI / UX Design;
+  * Filling the database.
+
+<hr>
+
+# Contributors
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=SevenSeas-Tech/demen)
+
+
+[dashboard]: https://github.com/SevenSeas-Tech/demen-dashboard
+[web]: https://github.com/SevenSeas-Tech/demen-web
+[backend]: https://github.com/SevenSeas-Tech/demen-backend
