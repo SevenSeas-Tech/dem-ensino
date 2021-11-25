@@ -3,8 +3,8 @@
 </div>
 
 <!---![Licence](https://img.shields.io/github/license/SevenSeas-Tech/dem-ensino.svg) -->
-[![Updated Badge](https://badges.pufler.dev/updated/SevenSeas-Tech/dem-ensino)](https://badges.pufler.dev)
-![stars](https://img.shields.io/github/stars/SevenSeas-Tech/dem-ensino.svg)
+[![Updated Badge](https://badges.pufler.dev/updated/SevenSeas-Tech/demen)](https://badges.pufler.dev)
+![stars](https://img.shields.io/github/stars/SevenSeas-Tech/demem.svg)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
