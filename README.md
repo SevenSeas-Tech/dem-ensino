@@ -22,6 +22,12 @@
   
   O democratizando o ensino só indexa as aulas, as visualizações e monetização ainda vão para o dono do conteúdo, já que nós não fazemos a hospedagem dos vídeos.
   
+  A plataforma é separada em 
+  
+  * server - node;
+  * front web - nextjs;
+  * dashboard de administração - react; 
+  * app mobile - react native.
   
 
 # Devlog
