@@ -43,7 +43,10 @@
 
   
 # Devlog
-I thought about using monorepo, but I changed my mind. A monorepo would add an unecessary level of complexity. So the application, thus, the code is split in several repositories.
+
+October 2022 - After tryind (and failing) to continue the development after several months, I've decided to re-do the project. Not the code, but the documentation. Restarting without a good doc made my life miserable, so I'll only go back to coding after the project design is ready.
+
+November 2021 - I thought about using monorepo, but I changed my mind. A monorepo would add an unecessary level of complexity. So the application, thus, the code is split in several repositories.
 
   ## Backend
 
