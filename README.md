@@ -44,13 +44,19 @@
   
 # Devlog
 
-October 2022 - After tryind (and failing) to continue the development after several months, I've decided to re-do the project. Not the code, but the documentation. Restarting without a good doc made my life miserable, so I'll only go back to coding after the project design is ready.
+* September 2022 - Finished designing the database the documentation can be found [here](https://github.com/SevenSeas-Tech/demen-backend/blob/main/DATABASE.MD).
 
-November 2021 - I thought about using monorepo, but I changed my mind. A monorepo would add an unecessary level of complexity. So the application, thus, the code is split in several repositories.
+* September 2022 - After tryind (and failing) to continue the development after several months, I've decided to re-do the project. Not the code, but the documentation. Restarting without a good doc made my life miserable, so I'll only go back to coding after the project design is ready.
+
+* November 2021 - I thought about using monorepo, but I changed my mind. A monorepo would add an unecessary level of complexity. So the application, thus, the code is split in several repositories.
 
   ## Backend
+  
+  Backend development in on project step again.
+  
+  * October 2022 - Routes are now beeing planned and documented.
 
-  I decided to change the table users. Now we have staff_members and students, both inherit users properties.
+  I decided to change the users table. Now we have staff_members and students, both inherit users properties.
 
   Postgres has a feature that allows me to select all child entities into users table without duplicity.
 
@@ -76,6 +82,7 @@ November 2021 - I thought about using monorepo, but I changed my mind. A monorep
 
 
   ## Web
+  * Otober 2022 - Front development was dropped for the moment. I'll get back to it after i am done with the back.
   I am working on the UI on [Figma](https://www.figma.com/file/jXtUXQaY0SQWaUC0vpUHVJ/Demen?node-id=0%3A1).
 
   ## Dasboard
