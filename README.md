@@ -83,7 +83,8 @@
 
   ## Web
   * Otober 2022 - Front development was dropped for the moment. I'll get back to it after i am done with the back.
-  I am working on the UI on [Figma](https://www.figma.com/file/jXtUXQaY0SQWaUC0vpUHVJ/Demen?node-id=0%3A1).
+  
+  * November 2021- I am working on the UI on [Figma](https://www.figma.com/file/jXtUXQaY0SQWaUC0vpUHVJ/Demen?node-id=0%3A1).
 
   ## Dasboard
   TODO
