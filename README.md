@@ -46,9 +46,9 @@
 
 * September 2022 - Finished designing the database the documentation can be found [here](https://github.com/SevenSeas-Tech/demen-backend/blob/main/DATABASE.MD).
 
-* September 2022 - After tryind (and failing) to continue the development after several months, I've decided to re-do the project. Not the code, but the documentation. Restarting without a good doc made my life miserable, so I'll only go back to coding after the project design is ready.
+* September 2022 - After trying (and failing) to continue the development after several months, I've decided to re-do the project. Not the code, but the documentation. Restarting without a good doc made my life miserable, so I'll only go back to coding after the project design is ready.
 
-* November 2021 - I thought about using monorepo, but I changed my mind. A monorepo would add an unecessary level of complexity. So the application, thus, the code is split in several repositories.
+* November 2021 - I thought about using monorepo, but I've changed my mind. A monorepo would add an unecessary level of complexity. So the application, thus, the code is split in several repositories.
 
   ## Backend
   
@@ -68,7 +68,7 @@
   I am refactoring the code to reflect those changes.
 
   ### About log-in
-  The alpha version goes live without login students's login, since it's not necessary to be logged to whatch videos.
+  The alpha version goes live without students's login, since it's not necessary to be logged to whatch videos.
 
   Logged users will be able to favorite channels and teachers. They'll also be able to send feedback about the videos.
   But that is not implemented yet.
